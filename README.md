@@ -1,2 +1,2 @@
 # odin-landing-page
-Create a landing page from a completed design.
+Create a landing page from a completed design-preview.
