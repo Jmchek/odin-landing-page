@@ -79,12 +79,13 @@ a {
     font-weight: bold;
   }
 
+/* Card Content Area */
 .card-cont {
     display: flex;
     background-color: white;
     color: #1f2937;
     flex-direction: column;
-    padding: 80px 100px;
+    padding: 80px 130px;
     gap: 30px;
 }
 
@@ -110,4 +111,27 @@ a {
     height: 15vw;
     border-radius: 8px;
     border: 2px solid #3882f6;
+}
+
+/* Quote Content Area */
+.quote-cont {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 80px 200px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-box {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-attr {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 1.2em;
 }
